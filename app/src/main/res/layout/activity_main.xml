@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="92dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="194dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boton1"
+                tools:src="@drawable/boton1"
+                tools:srcCompat="@drawable/boton1" />
+
+            <ImageButton
+                android:id="@+id/imagebutton2"
+                android:layout_width="194dp"
+                android:layout_height="182dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boton2"
+                tools:src="@drawable/boton2"
+                tools:srcCompat="@drawable/boton2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imagebutton3"
+                android:layout_width="194dp"
+                android:layout_height="182dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boton3"
+                tools:src="@drawable/boton3"
+                tools:srcCompat="@drawable/boton3" />
+
+            <ImageButton
+                android:id="@+id/imagebutton4"
+                android:layout_width="194dp"
+                android:layout_height="182dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boton4"
+                tools:srcCompat="@drawable/boton4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
